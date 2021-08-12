@@ -1,0 +1,688 @@
+*
+{
+    
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+body
+{
+    background-color: #ffffff;
+    height: 150vh;
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+
+.main-header
+{
+    height: 11%;
+    width: 100%;
+    float:left;
+    background: #ffffff;
+    color:#fff;
+}
+
+
+#myUL ul 
+{
+    float: left;
+    list-style: none;
+    margin-top: 20px;
+    margin-left: 0px;
+    
+}
+
+
+#myUL li
+{
+   display: inline-block;
+
+    
+}
+
+
+#myUL li 
+{
+    color: white;
+    text-decoration: none;
+    padding: 18px 52.2px;
+    display: block;
+    font-family: "Roboto", sans-serif;
+    font-size: 17px;
+    letter-spacing: 0.4px;
+}
+
+
+#myUL li a:hover
+{
+    transform: scale(1.2,1.2);
+    transition: all .7s ease;
+}
+
+
+
+#myUL li
+{
+    float: left;
+    width: 120px;
+    height: 35px;
+    background-color: #000000;
+    opacity: .8;
+    line-height: 35px;
+    text-align: center;
+    font-size: 15px;
+    
+}
+
+#ahh
+{
+	line-height: 18px;
+}
+
+#myUL li a{
+    text-decoration: none;
+    color:white;
+    display: block;
+}
+
+#myUL li a:hover{
+    background-color: darkslategrey;
+ 
+}
+
+#myUL li ul li {
+    display: none;
+}
+
+#myUL li:hover ul li{
+    display: block;
+}
+
+
+.search-form
+{
+    float: left;
+    margin-top: 28px;
+    margin-left: 20px;
+    
+   
+}
+
+    
+
+#input
+{
+    padding: 9px;
+    width: 600px;
+    border-style: soft;
+    font-size: 18px;
+    font-family: sans-serif;  
+    border-radius: 7px 0 0 7px;
+}
+
+    
+#search
+{
+    float: right;
+    background: #000000;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    padding: 12px;
+    border-style: solid;
+    font-family: sans-serif;
+    border: none;
+    font-size: 17px; 
+	border-radius:0 7px 7px 0;
+	transition: background-color 1000ms, color 1000ms;
+    
+}
+
+#search:hover{
+    background-color: #ff0000;
+}
+
+.login
+{
+    float: right;
+	background-color: rgb(0, 0, 0);
+	display: auto;
+    margin-top: 28px;
+    margin-left: 35px;
+    background: #000000;
+    color: white;
+    position: absolute;
+    padding: 12px;
+    width: 210px;
+    border-style: solid;
+    border-radius: 7px;
+    font-family: sans-serif;
+    border: none;
+    font-size: 17px; 
+	transition: background-color 1000ms, color 1000ms;
+    
+}
+
+.login:hover{
+	background-color: rgb(0, 0, 0);
+    background-color: #ff0000;
+	cursor: pointer;
+	transition: background-color 1000ms, color 1000ms;
+}
+
+.logo img
+{
+    width: 25%;
+	height: 75px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.little-logo
+{
+    width: 200;
+    height: 160;
+    float: right;
+    margin-top: 5;
+    margin-left: 50;
+}
+
+.little-logo img:hover
+{
+    transform: scale(1.2,1.2);
+    transition: all .5s ease;
+}
+
+section
+{
+    width: 1400px;
+    float: left;
+    padding: 1px;
+    margin-top: 20px;
+ 
+    
+    
+}
+
+
+.centered
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.centered2
+{
+    position: absolute;
+    width: 800;
+    height: 2px;
+    top: 30%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+}
+
+.filter
+{
+    position: absolute;
+    margin-left: 30;
+    background: #000000;
+    
+}
+
+.filter td
+{
+    color: #ffffff;
+}
+
+
+.filter ul
+{
+    color: #ffffff;
+}
+
+.filter ul a
+{
+    color: #ffffff;
+}
+
+.button1{
+    margin-top: 0;
+    margin-left: 360;
+    height: 250;
+    width: 200;
+    background-color:floralwhite;
+    
+}
+
+.button1:hover
+{
+    transform: scale(1.2,1.2);
+    transition: all .5s ease;
+   
+}
+
+
+.button2{
+    margin-left: 5;
+    height: 250;
+    width: 200;
+    background-color:floralwhite;
+}
+
+.button2:hover{
+    transform: scale(1.2,1.2);
+    transition: all .5s ease;
+    
+}
+
+.button3{
+    margin-left: 5;
+    height: 250;
+    width: 200;
+    background-color:floralwhite;
+}
+
+.button3:hover{
+    transform: scale(1.2,1.2);
+    transition: all .5s ease;
+    
+}
+
+.button4{
+    margin-left: 5;
+    height: 250;
+    width: 200;
+    background-color:floralwhite;
+}
+
+.button4:hover{
+    transform: scale(1.2,1.2);
+    transition: all .5s ease;
+    
+}
+
+.button5{
+    margin-left: 5;
+    height: 250;
+    width: 200;
+    background-color:floralwhite;
+}
+
+.button5:hover{
+    transform: scale(1.2,1.2);
+    transition: all .5s ease;
+    
+}
+
+.button6{
+    margin-top: 80;
+   margin-left: 360;
+    height: 250;
+    width: 200;
+    background-color:floralwhite;
+    
+}
+
+.button6:hover{
+    transform: scale(1.2,1.2);
+    transition: all .5s ease;
+    
+   
+}
+
+
+.button7{
+    margin-top: 80;
+    margin-left: 5;
+    height: 250;
+    width: 200;
+    background-color:floralwhite;
+}
+
+.button7:hover{
+    transform: scale(1.2,1.2);
+    transition: all .5s ease;
+    
+}
+
+.button8
+{
+    margin-top: 80;
+    margin-left: 60;
+    margin-left: 5;
+    height: 250;
+    width: 200;
+    background-color:floralwhite;
+}
+
+.button8:hover{
+    transform: scale(1.2,1.2);
+    transition: all .5s ease;
+    
+}
+
+.button9{
+    margin-top: 80;
+    margin-left: 5;
+    height: 250;
+    width: 200;
+    background-color:floralwhite;
+}
+
+.button9:hover{
+    transform: scale(1.2,1.2);
+    transition: all .5s ease;
+    
+}
+
+.button10{
+    margin-top: 80;
+    margin-left: 5;
+    height: 250;
+    width: 200;
+    background-color:floralwhite;
+}
+
+.button10:hover{
+    transform: scale(1.2,1.2);
+    transition: all .5s ease;
+    
+}
+
+
+.container
+{
+
+	width: 1280px;
+
+	margin: 0px auto 0;
+
+	display: flex;
+
+	flex-direction: row;
+
+	flex-wrap: wrap;
+
+}
+
+.container .box
+
+{
+
+	position: relative;
+
+	width: 300px;
+
+	height: 370px;
+
+	background: #fff;
+
+	margin: 62px;
+    border-bottom-style:solid;
+
+	box-sizing: border-box;
+
+	display: inline-flex;
+
+}
+
+.container .box .imgBox
+
+{
+
+	position: relative;
+
+	overflow: hidden;
+
+}
+
+.container .box .imgBox img
+
+{
+
+	max-width: 100%;
+
+	transition: transform 2s;
+
+}
+
+.container .box:hover .imgBox img
+
+{
+
+	transform: scale(1.2);
+
+}
+
+.container .box .details
+
+{
+
+	position: absolute;
+
+	top: 10px;
+
+	left: 10px;
+
+	bottom: 10px;
+
+	right: 10px;
+
+	background: rgba(0,0,0,.8);
+
+	transform: scaleY(0);
+
+	transition: transform .5s;
+
+}
+
+.container .box:hover .details
+
+{
+
+	transform: scaleY(1);
+
+}
+
+.container .box .details .content
+
+{
+
+	position: absolute;
+
+	top: 50%;
+
+	transform: translateY(-50%);
+
+	text-align: center;
+
+	padding: 15px;
+
+	color: #fff;
+
+}
+
+.container .box .details .content h2
+
+{
+
+	margin: 0;
+
+	padding: 0;
+
+	font-size: 20px;
+
+	color: #fff;
+    
+
+}
+
+.container .box .details .content p
+
+{
+
+	margin: 10px 0 0;
+
+	padding: 0;
+
+}
+
+.title
+{
+    margin-top: 50px;
+    margin-left: 50px;
+    font-family: sans-serif;
+    position: absolute;
+    text-align: left;
+}
+
+
+.text
+{
+    font-family:  sans-serif;
+    font-size: 18px;
+    
+}
+
+
+footer
+{
+    position:relative;
+    left: 0;
+    bottom: 0;
+    width: 92.8%;
+    background-color: black;
+    color: white;
+    clear: both;
+    text-align: center;
+    padding: 50px;
+}
+
+/* Full-width input fields */
+#id01 input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+#id01 #button {
+  background-color: #660066;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+#id01 button:hover {
+  opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 15px 0;
+  position: relative;
+}
+
+img.avatar {
+  width: 30%;
+    height: 30%;
+    align-self: center;
+      border-radius: 50%;
+}
+
+#container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+

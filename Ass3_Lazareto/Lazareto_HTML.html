@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>PENSHOPPE</title>
+		<link rel="stylesheet" type="text/css" href="Lazareto_HTML.css">
+		<link href="pics/pesnshoppeboxredlogo.png" rel="shortcut icon">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link  href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" >
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+	
+	<body>
+	
+	<header>
+		<div class="mainheader">
+			<div class="logo">
+                <img src="pics/PenshoppeLogo.png">
+					<form class="search-form">
+						<input type="text" id="input" placeholder="What are you looking for?">
+						<button type="submit" id="search">Search</button>
+                    </form>
+                    <button type="submit" class="login"><a onclick="document.getElementById('id01').style.display='block'" class="loggingin">Log In</a></button>
+
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="/action_page.php">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="pics/PenshoppeLogo.png" alt="Avatar" class="avatar">
+    </div>
+      <br>
+      <br>
+    <div id="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button type="submit" id="button">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div id="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+        <span class="psw"><a href="#">Create Account</a> or Forgot <a href="#">Password?</a></span>
+    </div>
+  </form>
+</div>
+
+<script>
+    
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+					
+			</div>
+        </div>
+		
+		
+		
+		<ul id ="myUL">
+			<li><a id="ahh" href="#S&B"><b>Shoes and Boots</b></a></li>
+			<li><a href="#Men"><b>Men</b></a></li>
+			<li><a href="#Women"><b>Women</b></a></li>
+			<li><a href="#Kids"><b>Kids</b></a></li>
+			<li><a href="#Beddings"><b>Bedding</b></a></li>
+			  
+    </ul>
+		
+	</header>	
+	<section>
+	   <center>        
+           <div class="slideshow">
+               <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                        <li data-target="#myCarousel" data-slide-to="3"></li>
+                        <li data-target="#myCarousel" data-slide-to="4"></li>
+                        <li data-target="#myCarousel" data-slide-to="5"></li>
+                        <li data-target="#myCarousel" data-slide-to="6"></li>
+                        <li data-target="#myCarousel" data-slide-to="7"></li>
+                        <li data-target="#myCarousel" data-slide-to="8"></li>
+                        <li data-target="#myCarousel" data-slide-to="9"></li>
+                        <li data-target="#myCarousel" data-slide-to="10"></li>
+                    </ol>
+
+        <Wrapper for slides></Wrapper>
+            <div class="carousel-inner">
+                <div class="item active"><center>
+                    <img src= "pics/dg_main2.jpg"   alt="dragonball" style="width:100%; height:auto; backgroundimage:"img src=""></center></div>
+                <div class="item"><center>
+                    <img src = "pics/dg_main3.jpg" alt="dragonball" style="width:100%; height: auto;"></center></div>
+                <div class="item"><center>
+                    <img src = "pics/dg_for_sliding.jpg" alt="dragonball" style="width:100%; height: auto;"></center></div>
+                <div class="item"><center>
+                    <img src = "pics/dg_for_sliding;andscape2.jpg" alt="dragonball" style="width:100%; height: auto;"></center></div>
+                <div class="item"><center>
+                    <img src = "pics/db_fix1.jpg" alt="dragonball" style="width:100%; height: auto;"></center></div>
+                <div class="item"><center>
+                    <img src = "pics/db_fix2.jpg" alt="dragonball" style="width:100%; height: auto;"></center></div>
+                <div class="item"><center>
+                    <img src = "pics/pm_main.jpg" alt="pokemon" style="width:100%; height:auto;"></center></div>
+                <div class="item"><center>
+                    <img src = "pics/pm_main2.jpg" alt="pokemon" style="width:100%; height: auto;"></center></div>
+                <div class="item"><center>
+                    <img src = "pics/pm_longslippers.jpg" alt="pokemon" style="width:100%; height: auto;"></center></div>
+                <div class="item"><center>
+                    <img src = "pics/db_fix3.jpg" alt="pokemon" style="width:100%; height: auto;"></center></div>
+                <div class="item"><center>
+                    <img src = "pics/pm_fix1.jpg" alt="pokemon" style="width:100%; height: auto;"></center></div>
+
+    <!-- Left and right controls -->
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+                   </div>
+               </div>
+           </div>
+        </center>
+        
+        
+        
+
+        <div class="um"><b>See our most recent arrivals</b></div>
+        
+        
+<div class="ccontainer">
+    <div class="box">
+        <div class="imgBox">
+            <img src="pics/acces.jpg" height="500px" width="430px">
+        </div>
+        <div class="details">
+            <div class="content">
+                <h2><a href="#accessories"  target="_self">Accesories</a></h2>
+                <p>New incredible accesories for men and women are now available.</p>
+            </div>
+        </div>
+    </div>
+<div class="box">
+    <div class="imgBox">
+        <img src="pics/womenshoes.jpg" height="500px" width="430px">
+    </div>
+    <div class="details">
+        <div class="content">
+            <h2><a href="womensshoes" target="_self">Women's Shoes</a></h2>
+            <p>New women fancy, comfi and cool designs of shoes are now available! Grab yours now!</p>
+        </div>
+    </div>
+</div>          
+     <div class="box">
+		<div class="imgBox">
+			<img src="pics/menshoes.jpg" height="500px" width="430px">
+		</div>
+		<div class="details">
+			<div class="content">
+				<h2><a href="#mensshoes" target="_self">Men's Shoes</a></h2>
+				<p>New cool and fashionable designs for men are now available.</p>
+			</div>
+		</div>
+	</div>  
+         <div class="box">
+		<div class="imgBox">
+			<img src="pics/kiddiewear.jpg" height="500px" width="430px">
+		</div>
+		<div class="details">
+			<div class="content">
+				<h2><a href="#kidswear" target="_self">Kid's Wear</a></h2>
+				<p>New Fancy, comfi and cool designs for our cute kids are now available! Grab yours now!</p>
+			</div>
+		</div>
+	</div>   
+         <div class="box">
+		<div class="imgBox">
+			<img src="pics/menswear.jpg" height="500px" width="430px">
+		</div>
+		<div class="details">
+			<div class="content">
+				<h2><a href="#mensfashion" target="_self">Men's Fashion</a></h2>
+				<p>New Formal, Casual and Street wear for men are now available. Grab yours now!</p>
+			</div>
+		</div>
+	</div>    
+         <div class="box">
+		<div class="imgBox">
+			<img src="pics/lalisawomenwear.jpg"height="500px" width="430px">
+		</div>
+		<div class="details">
+			<div class="content">
+				<h2><a href="#womensfashion" target="_self">Women's Fashion</a></h2>
+				<p>The new Fashion trend is Out! Elegant, sexy and comfi designs are now available</p>
+			</div>
+		</div>
+	</div>    
+ </div>
+           
+     <div class="ccontainer" >
+	   <div class="box"style="width: 429px; height:500px">
+           <div class="imgBox">
+               <img src="pics/sale-40-off-sign-over-260nw-561121930.jpg"style="width: 429px; height:500px">
+           </div>
+        <div class="details">
+            <div class="content">
+                <h2><button href="#nowear" target="_self"></button></h2>
+				<p><img src="pics/jewel.jpg"style="width:380px; height:500px"></p>
+            </div>
+        </div>
+	</div>
+         <div class="box">
+        <div class="imgBox">
+            <img src="pics/Penshoppe-Accessories-Sale-September-2013.jpg" height="500px" width="430px">
+        </div>
+        <div class="details">
+            <div class="content">
+                <h2><a href="#accessories"  target="_self">50% Accesories</a></h2>
+                <p>Old incredible accesories for men and women are still available.</p>
+            </div>
+        </div>
+    </div>
+         
+         <div class="box">
+        <div class="imgBox">
+            <img src="pics/saleblack.jpg" height="500px" width="430px">
+        </div>
+        <div class="details">
+            <div class="content">
+                <h2><a href="#accessories"  target="_self">OUTFIT</a></h2>
+                <p>Old but fashionable design will be 40% off.Limited time,Buy now!</p>
+            </div>
+        </div>
+    </div>
+</div>
+        
+        
+        </section>
+    
+        <!--footer-->                       
+    <div class="footer">
+        <div class="footer-content">
+            
+            <div class="footer-section about">
+                <div class="footerlogo">
+                    <img src="pics/PenshoppeLogo.png">
+                </div>
+                <br>
+                <p style="font-size: 20px;font-style: normal; font-family: sans-serif;"><b>CONTACT</b></p>
+                <div class="contact">
+                    <span><i class="fa fa-phone"></i> &nbsp;+63 2 84222 952, +639399101047</span><br>
+                    <span><i class="fa fa-envelope"></i> &nbsp; shop@penshoppe.com</span>
+                    <br>
+                    <br>
+                </div>
+                <p style="font-size: 20px;font-style: normal; font-family: sans-serif;"><b>FOLLOW US</b></p>
+                <div class="socials">
+                    <a href="https://www.facebook.com/penshoppe/" target="_blank"><i class="fa fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/penshoppe/?hl=en" target="_blank"><i class="fa fa-instagram"></i></a>
+                    <a href="https://twitter.com/PENSHOPPE?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"><i class="fa fa-twitter"></i></a>
+                    <a href="https://www.youtube.com/channel/UCWe92Dn8H5Sf2OAP78BWdDA" target="_blank"><i class="fa fa-youtube"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-section links">
+                <h2><b> EXPLORE </b></h2>
+                <br>
+                <ul>
+                    <a href="https://support.penshoppe.com/hc/en-us" target="_blank"><li>FAQs</li></a>
+                    <a href="https://www.penshoppe.com/pages/store-list" target="_blank"><li>Store List</li></a>
+                    <a href="https://www.penshoppe.com/pages/shipping-delivery" target="_blank"><li>Shipping Delivery</li></a>
+                    <a href="https://www.penshoppe.com/pages/about" target="_blank"><li>About Us</li></a>
+                    <a href="https://www.penshoppe.com/pages/return-policy" target="_blank"><li>Return Policy</li></a>
+                    <a href="https://www.penshoppe.com/pages/terms-and-conditions" target="_blank"><li>Terms and Conditions</li></a>
+                    <a href="https://www.penshoppe.com/pages/privacy-policy" target="_blank"><li>Privacy Policy</li></a>
+                </ul>
+            </div>
+            
+            <div class="footer-section contact-form">
+                <h3><b> GET THE LATEST SCOOP ON WHAT'S NEW AND COOL!</b> </h3>
+                <form action="Lazareto_HTML.html" method="post">
+                    <input type="email" id="iinput" placeholder="Email">
+                    <button type="submit" class="signupps">SIGN UP</button>
+                </form>
+                <br>
+                <p style="font-size: 15px;font-style: normal; font-family: sans-serif;">Subscribe to our newsletter and stay up-to-date with style trends, pop culture, and cool deals.</p>
+                
+                <p><b>SUPPORTED PAYMENT METHODS</b></p>
+                
+                <div class="socia">
+                    <a><i class="fa fa-cc-mastercard"></i></a>
+                    <a><i class="fa fa-cc-paypal"></i></a>
+                    <a><i class="fa fa-cc-visa"></i></a>
+                </div>
+            </div>
+        </div>
+            
+        <div class="footer-bottom"> &copy; 2020 PENSHOPPE</div>
+            
+    </div>
+        
+        
+		
+	</body>
+
+</html>
